@@ -1,9 +1,12 @@
-fswiki-captcha
-==============
-
-CAPTCHA plugin for FreeStyle Wiki
-
 !!!CAPTCHAプラグイン
+
+README
+
+ Hiro Sakuma <sakuma@zero52.com>
+ Copyright 2005-2009 BitCoffee, Inc. All Rights Reserved.
+ Copyright (C) medicalsystems, Inc.
+
+
 
 !!CAPTCHAプラグインとは
 
@@ -36,7 +39,6 @@ Free UCS Outline Fonts の FreeSansBold.ttf を同梱しています．
 http://savannah.nongnu.org/projects/freefont/
 
 このファイルのライセンスは GPL Version 2 です．ライセンスの詳細は同梱の gpl.txt を参照してください．
-
 
 
 

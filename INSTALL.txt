@@ -1,0 +1,51 @@
+!!!CAPTCHAプラグイン
+
+INSTALL
+
+ Hiro Sakuma <sakuma@zero52.com>
+ Copyright 2005-2009 BitCoffee, Inc. All Rights Reserved.
+ Copyright (C) medicalsystems, Inc.
+
+
+
+!!インストール
+
+展開すると，fswikiのディレクトリ構造となるので，必要なファイルをコピーしてください．
+
+ config/
+ config/captcha.dat
+ plugin/captcha/
+ plugin/captcha/AdminCaptchaConfigHandler.pm
+ plugin/captcha/Captcha.pm
+ plugin/captcha/CaptchaHandler.pm
+ plugin/captcha/Comment.pm
+ plugin/captcha/CommentHandler.pm
+ plugin/captcha/EditHandler.pm
+ plugin/captcha/Initialize.pm 
+ plugin/captcha/Install.pm
+ tmpl/
+ tmpl/admin_captcha_config.tmpl
+ ttf/
+ ttf/FreeSansBold.ttf
+
+
+
+設定ファイル (setup.dat) に次の数値を追加してください．
+
+ captcha_tmp_dir = ./log
+ captcha_number_of_characters = 5
+ captcha_width = 250
+ captcha_height = 70
+ captcha_expire = 1800
+ captcha_font = ./ttf/FreeSansBold.ttf
+ captcha_ptsize = 24
+
+
+Perl module の，GD::SecurityImage::AC が必要ですので，インストールしてください．
+
+""# cpan install GD::SecurityImage::AC
+
+
+
+fswikiにログインして，プラグインのインストールを行ってください．
+

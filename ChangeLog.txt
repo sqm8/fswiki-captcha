@@ -1,0 +1,23 @@
+2014-02-27  Hiro Sakuma  <sakuma@zero52.com>
+
+	* リポジトリを git へ変更
+
+2007-05-19  Hiroaki Sakuma  <sakuma@bitcoffee.com>
+
+	* bug fix
+
+2007-05-14  Hiroaki Sakuma  <sakuma@bitcoffee.com>
+
+	* CAPTCHA エンジンを，GD::SecurityImage::AC に変更
+
+	* comment プラグインに対応
+
+	* bbs プラグインに対応
+
+2005-03-20  Hiroaki Sakuma  <sakuma@bitcoffee.com>
+
+	* CAPTCHA プラグイン配布開始
+
+2005-03-15  Hiroaki Sakuma  <sakuma@bitcoffee.com>
+
+	* CAPTCHA プラグイン開発開始

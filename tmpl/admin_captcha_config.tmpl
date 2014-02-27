@@ -1,0 +1,22 @@
+<!--=========================================================================-->
+<!-- 管理画面（CAPTCHA設定） -->
+<!--=========================================================================-->
+
+<h2>ユーザ情報</h2>
+
+<h3>ユーザの設定</h3>
+<p>
+  表示するユーザ：
+  <input type="checkbox" name="user_0" value="1"
+         <!--TMPL_IF NAME="USER_0"-->checked<!--/TMPL_IF-->>管理者
+  <input type="checkbox" name="user_1" value="1"
+         <!--TMPL_IF NAME="USER_1"-->checked<!--/TMPL_IF-->>一般
+  <input type="checkbox" name="user_g" value="1"
+         <!--TMPL_IF NAME="USER_G"-->checked<!--/TMPL_IF-->>ゲスト
+</p>
+
+
+<p>
+  <input type="submit" name="SAVE" value="設定を保存">
+  <input type="reset" value="リセット">
+</p>
